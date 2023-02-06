@@ -1,0 +1,98 @@
+h1{
+	color: red;
+	border: 11px outset white;
+	background-color: lightyellow;
+    width: 340px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+h2{
+	color: green;
+	border: 11px outset white;
+	background-color: lime;
+	width: 150px;
+	text-align: center;
+	margin-left: 200px;
+}
+h3{
+	color: blue;
+	background-color: gold;
+	width: 175px;
+	margin-left: 100px;
+}
+div{
+	margin-left: 100px;
+}
+div.visible{
+	height: 300px;
+	width: 200px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	overflow: visible;
+	display: inline-block;
+}
+div.hidden{
+	height: 300px;
+	width: 200px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	overflow: hidden;
+}
+div.auto{
+	height: 200px;
+	width: 300px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	overflow: auto;
+}
+div.scroll{
+	height: 300px;
+	width: 200px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.blur{
+	filter: blur(5px);
+}
+.blur:hover{
+	filter: blur(0);
+}
+.hue{
+	filter: hue-rotate(90deg);
+}
+.hue:hover{
+	filter: hue-rotate(180deg);
+}
+.brightness{
+	filter: brightness(2.0);
+}
+.brightness:hover{
+	filter: brightness(0.3);
+}
+.invert{
+	filter: invert(100%);
+}
+.invert:hover{
+	filter: invert(0);
+}
+.grayscale{
+	filter: grayscale(1);
+}
+.grayscale:hover{
+	filter: grayscale(50%);
+}
+.saturate{
+	filter: saturate(100%);
+}
+.saturate:hover{
+	filter: saturate(20%);
+}
+.sepia{
+	filter: sepia(100%);
+}
+.sepia:hover{
+	filter: sepia(10%);
+}
